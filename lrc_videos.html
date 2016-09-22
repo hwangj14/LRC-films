@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LRC Videos</title>
+
+<style>
+a:link {
+    text-decoration: none;
+        color:#D1F0FF;
+
+}
+
+
+a:hover {
+    background-color: #4B75B3; 
+    color:#CCFFFF;
+}
+
+a:visited {
+    color: cyan;
+}
+
+body
+{
+background-color: black; 
+margin:40px;
+}
+
+
+#content1 {
+  float: left ;
+  width: 50% ;
+}
+#content2 {
+  float: right;
+  width: 50%;
+}
+
+
+</style>
+
+
+</head>
+
+<div id="FilmTitles">
+
+<div id="content1">
+<a href="lrc_videos.html?mid=1">Un Dia Perfecto</a><br>
+<a href="lrc_videos.html?mid=2">Al Otro Lado (ENG)</a><br>
+<a href="lrc_videos.html?mid=3">Al Otro Lado</a><br>
+<a href="lrc_videos.html?mid=4">Apocalypse Now</a><br>
+<a href="lrc_videos.html?mid=5">Apocalypse Now 2</a><br>
+<a href="lrc_videos.html?mid=6">Architecture Of Doom</a><br>
+<a href="lrc_videos.html?mid=7">Balseros</a><br>
+<a href="lrc_videos.html?mid=8">Bowling for Columbine</a><br>
+<a href="lrc_videos.html?mid=9">Chico and Rita (ENG)</a><br>
+<a href="lrc_videos.html?mid=10">CHOCO</a><br>
+<a href="lrc_videos.html?mid=11">Civilization 1</a><br>
+<a href="lrc_videos.html?mid=12">Civilization 2</a><br>
+<a href="lrc_videos.html?mid=13">Cuba 1</a><br>
+<a href="lrc_videos.html?mid=14">Cuba 2</a><br>
+<a href="lrc_videos.html?mid=15">De Nadie (Border Crossing)</a><br>
+<a href="lrc_videos.html?mid=16">El alma de Mexico Dialogos con el mundo</a><br>
+<a href="lrc_videos.html?mid=17">El alma de Mexico Herencia Viva</a><br>
+<a href="lrc_videos.html?mid=18">El alma de Mexico Revolucion y Revelacion</a><br>
+<a href="lrc_videos.html?mid=19">El Espiritu de la Colmena</a><br>
+<a href="lrc_videos.html?mid=20">El Santo Oficio</a><br>
+<a href="lrc_videos.html?mid=21">Eva Peron</a><br>
+<a href="lrc_videos.html?mid=22">Even the Rain</a><br>
+<a href="lrc_videos.html?mid=23">Fidel Castro Tapes</a><br>
+<a href="lrc_videos.html?mid=24">Flores de Otro Mundo (SPN)</a><br>
+<a href="lrc_videos.html?mid=25">Frida 1984</a><br>
+<a href="lrc_videos.html?mid=26">Frida Span 533</a><br>
+<a href="lrc_videos.html?mid=27">From Far Away</a><br>
+<a href="lrc_videos.html?mid=28">Gun Hill Road</a><br>
+<a href="lrc_videos.html?mid=29">Human Language</a><br>
+<a href="lrc_videos.html?mid=30">Il Postino</a><br>
+</div><div id="content2">
+<a href="lrc_videos.html?mid=31">John Leguizamo Freak</a><br>
+<a href="lrc_videos.html?mid=32">La Celestina Beginning</a><br>
+<a href="lrc_videos.html?mid=33">La Jaula De Oro</a><br>
+<a href="lrc_videos.html?mid=34">La Noche de los lapices</a><br>
+<a href="lrc_videos.html?mid=35">La Pastorela</a><br>
+<a href="lrc_videos.html?mid=36">Los Ninosde Chile</a><br>
+<a href="lrc_videos.html?mid=37">Lunes al Sol</a><br>
+<a href="lrc_videos.html?mid=38">Maquilapolis</a><br>
+<a href="lrc_videos.html?mid=39">Maria Full of Grace</a><br>
+<a href="lrc_videos.html?mid=40">Martin Fierro</a><br>
+<a href="lrc_videos.html?mid=41">Mefisto (ENG)</a><br>
+<a href="lrc_videos.html?mid=42">Mexico 1</a><br>
+<a href="lrc_videos.html?mid=43">Mexico 2</a><br>
+<a href="lrc_videos.html?mid=44">Nadie conoce a nadie</a><br>
+<a href="lrc_videos.html?mid=45">Nao Bustamante 1</a><br>
+<a href="lrc_videos.html?mid=46">Nao Bustamante 2</a><br>
+<a href="lrc_videos.html?mid=47">Paispara Comerselo - Avila</a><br>
+<a href="lrc_videos.html?mid=48">Paispara Comerselo - Cadiz</a><br>
+<a href="lrc_videos.html?mid=49">Pans Labyrinth</a><br>
+<a href="lrc_videos.html?mid=50">Pedro Paramo</a><br>
+<a href="lrc_videos.html?mid=51">Princesas</a><br>
+<a href="lrc_videos.html?mid=52">Ratas Ratones Rateros</a><br>
+<a href="lrc_videos.html?mid=53">Read Write Society</a><br>
+<a href="lrc_videos.html?mid=54">Reportero</a><br>
+<a href="lrc_videos.html?mid=55">Romero</a><br>
+<a href="lrc_videos.html?mid=56">Sin Dejar Huella</a><br>
+<a href="lrc_videos.html?mid=57">Sin Nombre</a><br>
+<a href="lrc_videos.html?mid=58">Sugar</a><br>
+<a href="lrc_videos.html?mid=59">The Wordmaker</a><br>
+<a href="lrc_videos.html?mid=60">Pedro Paramo</a><br>
+</div>
+</div>
+
+<script>
+if(window.location.href.indexOf("?mid=") != -1)
+// Checks if query present
+	{
+	var check = 1;
+	var ID = window.location.search;
+	ID = ID.replace("?mid=", '');
+	}
+else
+    {var check = 0;}
+//Defining 
+var fname;
+
+	if(ID==1){fname="un_dia_perfecto.m4v";}
+	if(ID==2){fname="Al Otro Lado (eng subtitles).mp4";}
+	if(ID==3){fname="Al Otro Lado (no subtitles).mp4";}
+	if(ID==4){fname="ApocalypseNow.mp4";}
+	if(ID==5){fname="ApocalypseNow2.mp4";}
+	if(ID==6){fname="architecture_of_doom.mp4";}
+	if(ID==7){fname="Balseros.m4v";}
+	if(ID==8){fname="BOWLING_FOR_COLUMBINE_DISC_1.m4v";}
+	if(ID==9){fname="CHICO_AND_RITA_ENGLISH_SUBTITLES.m4v";}
+	if(ID==10){fname="CHOCO.m4v";}
+	if(ID==12){fname="CivilizationDisc1.mp4";}
+	if(ID==13){fname="CivilizationDisc2.mp4";}
+	if(ID==14){fname="Cuba Part 1.mp4";}
+	if(ID==15){fname="Cuba Part 2.mp4";}
+	if(ID==16){fname="De Nadie (Border Crossing).m4v";}
+	if(ID==17){fname="El alma de mexico Dialogos con el mundo.mp4";}
+	if(ID==18){fname="El alma de mexico Herencia Viva.mp4";}
+	if(ID==19){fname="El alma de mexico Revolucion y Revelacion.mp4";}
+	if(ID==20){fname="El Espiritu de la Colmena.m4v";}
+	if(ID==21){fname="El Santo Oficio.mp4";}
+	if(ID==22){fname="Eva Peron.mp4";}
+	if(ID==23){fname="Even the Rain.mp4";}
+	if(ID==24){fname="Fidel_Castro_Tapes.m4v";}
+	if(ID==25){fname="Flores de Otro Mundo (spanish subs).m4v";}
+	if(ID==26){fname="Frida 1984 by Paul Leduc.mp4";}
+	if(ID==27){fname="Frida Span 533.mp4";}
+	if(ID==28){fname="From far_away s.mp4";}
+	if(ID==29){fname="Gun Hill Road.mp4";}
+	if(ID==30){fname="Human Language.mp4";}
+	if(ID==31){fname="IL_POSTINO_SUBS.m4v";}
+	if(ID==32){fname="JOHN_LEGUIZAMO_FREAK.m4v";}
+	if(ID==33){fname="La Celestina_Beginning.m4v";}
+	if(ID==34){fname="La Jaula De Oro.mp4";}
+	if(ID==35){fname="La Noche de los lapices.mp4";}
+	if(ID==36){fname="LaPastorela.m4v";}
+	if(ID==37){fname="LosNinosdeChile.mp4";}
+	if(ID==38){fname="Lunes al Sol.m4v";}
+	if(ID==39){fname="Maquilapolis.mp4";}
+	if(ID==40){fname="MARIA_FULL_OF_GRACE.m4v";}
+	if(ID==41){fname="MartinFierro.mp4";}
+	if(ID==42){fname="Mefisto (English Subtitles).m4v";}
+	if(ID==43){fname="Mexico Part 1.mp4";}
+	if(ID==44){fname="Mexico Part 2.mp4";}
+	if(ID==45){fname="nadie conoce a nadie.m4v";}
+	if(ID==46){fname="NAO_BUSTAMANTE_1.m4v";}
+	if(ID==47){fname="NAO_BUSTAMANTE_2.m4v";}
+	if(ID==48){fname="PaisparaComerselo-Avila.m4v";}
+	if(ID==49){fname="PaisparaComerselo-Cadiz.m4v";}
+	if(ID==50){fname="Pans_Labyrinth_Selected_Scene.m4v";}
+	if(ID==51){fname="Pedro_Paramo.mp4";}
+	if(ID==52){fname="PRINCESAS.m4v";}
+	if(ID==53){fname="Ratas Ratones Rateros.mp4";}
+	if(ID==54){fname="Read Write Society.mp4";}
+	if(ID==55){fname="Reportero.m4v";}
+	if(ID==56){fname="Romero.mp4";}
+	if(ID==57){fname="SIN_DEJAR_HUELLA.m4v";}
+	if(ID==58){fname="SIN_NOMBRE.m4v";}
+	if(ID==59){fname="SUGAR.m4v";}
+	if(ID==60){fname="TheWordmaker.mp4";}
+	
+
+
+//If query is present
+if(check != 0) {
+document.getElementById("FilmTitles").style.display = 'none';
+
+document.write('<body oncontextmenu=\"return false\" bgcolor=\"#000000">');
+
+document.write('<center><font color=\"grey">LRC Video Player</font><br>');
+
+document.write('<video width=\"640\" height=\"480\" controls>');
+
+	document.write('<source src=\"' + fname + '">');
+	<!-- Local path-->
+	document.write('<source src=\"file:///L:/LangLab/Spanish/Films/' + fname + '">');
+	<!-- 3200 L drive path for students-->
+	document.write('<source src=\"file:///T:/College%20of%20Arts%20and%20Sciences/Modern%20and%20Classical%20Languages/LLC/LangLab/Spanish/Films/' + fname + '"');
+	<!-- 3200 T drive path for faculty-->
+	document.write('<source src=\"file:///Volumes/Modern%20and%20Classical%20Languages/LLC/LangLab/Spanish/Films/' + fname + '" ');
+	<!-- 3200 Network drive path for Mac users-->
+	document.write('<source src=\"file:///Volumes/dep/College%20of%20Arts%20and%20Sciences/Modern%20and%20Classical%20Languages/LLC/LangLab/Spanish/Films/' + fname + '"');
+	<!-- alternate Mac path-->
+	document.write('Your browser does not support the video tag.</video>');
+	}
+
+</script>
+
+</body>
+</html>
